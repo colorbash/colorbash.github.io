@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Unicorn PSD Template</title>
+        <title>colorbash</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <link rel="stylesheet/less" href="less/all.less"/>
         <script src="js/less.min.js"></script>
     </head>
     <body>
-        <header class="banner">
+        <header class="banner" id="my-face-pic">
             <section class="container banner__container">
                 <div class="row">
                     <div class="col-12">
                         <nav class="nav banner__menu">
-                            <a href="/" class="link nav__logo">Unicorn</a>
+                            <a href="/" class="link nav__logo">@Colorbash</a>
                             <ul class="nav__list">
                                 <li class="nav__item">
                                     <a href="/" class="link nav__link">Home</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="/" class="link nav__link">About</a>
+                                    <a class="link nav__link" id="scroll2bio-id">Bio</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="/" class="link nav__link">Stories</a>
+                                    <a href="/Projects" class="link nav__link">Projects</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="/" class="link nav__link">Hello</a>
+                                    <a class="link nav__link" id="scroll2contacts-id">Contacts</a>
                                 </li>
                             </ul>
                         </nav>
@@ -34,429 +34,65 @@
                 <section class="row banner__content">
                     <div class="col-6 offset-6">
                         <div class="promo">
-                            <h1 class="title">Storyteller</h1>
+                            <h1 class="title">Nikita Basharov</h1>
                             <p class="text">
-                                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
-                                in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his
-                                head a little he could see his brown belly, slightly domed and divided by arches into
-                                stiff sections.
+                                Hi, mate, this site presents my life to you.
                             </p>
-                            <a href="/" class="button">Read The Rest</a>
+                            <a class="button" id="scroll2bio-id2">Read The Rest</a>
                         </div>
                     </div>
                 </section>
             </section>
         </header>
-        <main>
-            <section class="container">
-                <div class="row justify-content-center">
-                    <div class="col-10">
-                        <div class="intro">
-                            <span class="icon icon_broccoli"></span>
-                            <h2 class="title title_level-2">Who & Why</h2>
-                            <p class="text text_level-2">
-                                The gentlemen who rented the room would sometimes take their evening meal at home in the
-                                living room that was used by everyone, and so the door to this room was often kept
-                                closed in the evening. But Gregor found it easy to give up having the door open, he had,
-                                after all, often failed to make use of it when it was open and, without the family
-                                having noticed it, lain in his room in its darkest corner. One time, though, the
-                                charwoman left the door.
-                            </p>
-                        </div>
+        <section class="bio" id="bio-id">
+            <div class="container">
+                <div class="row justify-content-center bio__row">
+                    <div class="col-6 bio__block">
+                        <p class="text text_level-3 bio__category">Simply handsome guy</p>
+                        <h2 class="title title_level-2 bio__header">Who I'm?</h2>
+                        <p class="text text_level-3">I'm a young bad software engineer from Moscow. I like to study and programming. This site is my first try in web development.</p>
                     </div>
-                </div>
-            </section>
-        
-            <section class="substrate">
-                <div class="container">
-                    <div class="row features">
-                        <section class="col-4">
-                            <div class="features__item">
-                                <span class="icon icon_clock"></span>
-                                <h3 class="title title_level-3">A Wow Feature</h3>
-                                <p class="text text_level-3">
-                                    The gentlemen who rented the room would sometimes take their evening meal at home in
-                                    the living.
-                                </p>
-                            </div>
-                        </section>
-                        <section class="col-4">
-                            <div class="features__item">
-                                <span class="icon icon_vector"></span>
-                                <h3 class="title title_level-3">A Beautiful Feature</h3>
-                                <p class="text text_level-3">
-                                    The gentlemen who rented the room would sometimes take their evening meal at home in
-                                    the living.
-                                </p>
-                            </div>
-                        </section>
-                        <section class="col-4">
-                            <div class="features__item">
-                                <span class="icon icon_land-working"></span>
-                                <h3 class="title title_level-3">An Amazing Feature</h3>
-                                <p class="text text_level-3">
-                                    The gentlemen who rented the room would sometimes take their evening meal at home in
-                                    the living.
-                                </p>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </section>
-          
-            <section class="container f-articles">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="intro">
-                            <h2 class="title title_level-2">Featured Articles</h2>
-                            <p class="text text_level-3">
-                              The gentlemen who rented the room would sometimes take their evening meal at home in the
-                              living room that was used by everyone, and so the door to this room was often kept
-                              closed in the.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <section class="col-4">
-                            <div class = "f-articles__card">
-                                <h4 class="title title_level-2">COMIC</h4>
-                                <p class="text text_level-2">A million ways to die in the wild wild wild wild west</p>
-                                <div>
-                                    <span class="people people__man1"></span>
-                                    <div class="f-articles__info">
-                                      <div class="f-articles__name">JOHN SMITH</div>
-                                      <div class="f-articles__date">2089/1/26</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="col-4">
-                            <div class = "f-articles__card">
-                                <h4 class="title title_level-2">LIFESTYLE</h4>
-                                <p class="text text_level-2">The most comfortable chair comes with no backpain</p>
-                                <div>
-                                    <span class="people people__woman"></span>
-                                    <div class="f-articles__info">
-                                        <div class="f-articles__name">KIA RIO</div>
-                                        <div class="f-articles__date">2091/3/21</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="col-4">
-                            <div class = "f-articles__card">
-                                <h4 class="title title_level-2">TRAVEL</h4>
-                                <p class="text text_level-2">Journey to the center of the Earth with Jafferson</p>
-                                <div>
-                                    <span class="people people__man2"></span>
-                                    <div class="f-articles__info">
-                                        <div class="f-articles__name">SUBARU IMPREZA</div>
-                                        <div class="f-articles__date">1989/2/16</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="arrow"></button>
-                        </section>
-                    </div>
-                </div>
-            </section>
-         
-            <section class="substrate">
-                <div class="container">
-                    <h2 class="clients__header">Clients</h2>
-                    <div class="row clients">
-                        <ul class="col-1">
-                            <li class="client__pic client__pic_1"></li>
-                        </ul>
-                        <ul class="col-1">
-                            <li class="client__pic client__pic_2"></li>
-                        </ul>
-                        <ul class="col-1">
-                            <li class="client__pic client__pic_3"></li>
-                        </ul>
-                        <ul class="col-1">
-                            <li class="client__pic client__pic_4"></li>
-                        </ul>
-                        <ul class="col-1">
-                            <li class="client__pic client__pic_5"></li>
-                        </ul>
-                        <ul class="col-2">
-                            <li class="client__pic client__pic_6"></li>
-                            <button class="arrow"></button>
-                        </ul>
-                    </div>
-                </div>
-            </section>    
-         
-            <section class="portfolio">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="portfolio__info">
-                            <h2 class="title title_level-2">Portfolio & Screenshot</h2>
-                            <p class="text text_level-2">
-                              The gentlemen who rented the room would sometimes take their evening meal at home in the
-                              living room that was used by everyone, and so the door to this room was often kept
-                              closed in the.
-                            </p>
-                        </div>
-                    </div>
-                    <ul class="row justify-content-center clients-container">
-                        <li class="portfolio__themes">Art</li>
-                        <li class="portfolio__themes">Mystery</li>
-                        <li class="portfolio__themes">Illusion</li>
-                        <li class="portfolio__themes">Travel</li>
-                        <li class="portfolio__themes">Paintings</li>
-                    </ul>
-                </div>
-            </section>
-            <div class="portfolio__pics">
-                <img class="portfolio__pics-item" src="img\bridge.jpg">
-                <img class="portfolio__pics-item" src="img\tigr.jpg">
-                <img class="portfolio__pics-item" src="img\city.jpg">
-                <img class="portfolio__pics-item" src="img\lake.jpg">
-            </div>
-            <div class="row justify-content-center">
-                <label class="my-radiobutton">
-                  <input type="radio" name="radio">
-                  <span class="checkmark"></span>
-                </label>
-                <label class="my-radiobutton">
-                  <input type="radio" name="radio">
-                  <span class="checkmark"></span>
-                </label>
-                <label class="my-radiobutton">
-                  <input type="radio" name="radio" checked="checked">
-                  <span class="checkmark"></span>
-                </label>
-                <label class="my-radiobutton">
-                  <input type="radio" name="radio">
-                  <span class="checkmark"></span>
-                </label>
-            </div>
-            
-            
-            <section class="quotation">
-                <div class="container">
-                    <img class="quots__img" src="img/quots.png">
-                    <p class="text text_level-2">Some quotation of famous person for epic atmosphere!</p>
-                    <div class="quotation__autor">The author</div>
-                </div>
-            </section>
-         
-            <div class="team container">
-                <div class="row justify-content-center">
-                    <div class="col-8">
-                        <div class="team__header">
-                            <h2 class="title title_level-2">Team Members</h2>
-                            <p class="text text_level-2">
-                              The gentlemen who rented the room would sometimes take their evening meal at home in the
-                              living room that was used by everyone, and so the door to this room was often kept
-                              closed in the.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <ul class="team__block">
-                        <li  class="team__icon team__icon_botan"></li>
-                        <li  class="team__member team__member_name">Bill Gates</li>
-                        <li  class="team__member team__member_role">Cool man</li>
-                    </ul>
-                    <ul class="team__block">
-                        <li  class="team__icon team__icon_boroda"></li>
-                        <li  class="team__member team__member_name">Steve Jobs</li>
-                        <li  class="team__member team__member_role">Designer</li>
-                    </ul>
-                    <ul class="team__block">
-                        <li  class="team__icon team__icon_zeck"></li>
-                        <li  class="team__member team__member_name">Prisoner</li>
-                        <li  class="team__member team__member_role">Just a man</li>
-                    </ul>
-                    <ul class="team__block">
-                        <li  class="team__icon team__icon_woman"></li>
-                        <li  class="team__member team__member_name">Kelly Salevan</li>
-                        <li  class="team__member team__member_role">Just a woman</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <section class="facts">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-8">
-                            <div class="facts__header">
-                                <h2 class="title title_level-2">Facts & Numbers</h2>
-                                <div class="facts__table">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <h2 class="facts__numbers">100</h2>
-                                            <div class="title title_level-3">successful projects</div>
-                                        </div>
-                                        <div class="col-6">
-                                            <h2 class="facts__numbers">25</h2>
-                                            <div class="title title_level-3">awesome clients</div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <h2 class="facts__numbers">30</h2>
-                                            <div class="title title_level-3">open source plugins</div>
-                                        </div>
-                                        <div class="col-6">
-                                            <h2 class="facts__numbers">13</h2>
-                                            <div class="title title_level-3">open source themes</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>    
-            
-            <section class="noname">
-                <div class="container">
-                    <div class="row justify-content-center noname__row">
-                        <div class="col-6 noname__block">
-                            <p class="text text_level-3 noname__category">Travel / 21st March, 2014</p>
-                            <h2 class="title title_level-2 noname__header">A  New Product Is Coming</h2>
-                            <p class="text text_level-3">The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had ever.</p>
-                        </div>
-                        <div class="col-6">
-                            <img class="noname__img noname__img-1">
-                        </div>
-                    </div>
-                    <div class="row justify-content-center noname__row">
-                        <div class="col-6">
-                            <img class="noname__img noname__img-2">
-                        </div>
-                        <div class="col-6 noname__block">
-                            <p class="text text_level-3 noname__category">Travel / 21st March, 2014</p>
-                            <h2 class="title title_level-2 noname__header">A  New Product Is Coming</h2>
-                            <p class="text text_level-3">The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had ever.</p>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center noname__row">
-                        <div class="col-6 noname__block">
-                            <p class="text text_level-3 noname__category">Travel / 21st March, 2014</p>
-                            <h2 class="title title_level-2 noname__header">A  New Product Is Coming</h2>
-                            <p class="text text_level-3">The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had ever.</p>
-                        </div>
-                        <div class="col-6">
-                            <img class="noname__img noname__img-3">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section class="substrate">
-                <div class="container">
-                    <div class="row justify-content-center bookmarks">
-                        <article class="col-4 bookmarks__item">
-                            <h2 class="bookmarks__name">Another Day In Paradise</h2>
-                            <div class="bookmarks__category">Travel / 21st March, 2014</div>
-                        </article>
-                        <article class="col-4 bookmarks__item">    
-                            <h2 class="bookmarks__name">Jimmy's new book on aliens</h2>
-                            <div class="bookmarks__category">Travel / 21st March, 2014</div>
-                        </article>
-                        <article class="col-4 bookmarks__item">
-                            <h2 class="bookmarks__name">Sarah new house</h2>
-                            <div class="bookmarks__category">Travel / 21st March, 2014</div>
-                            <button class="arrow"></button>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            
-            <section class="twitter">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="people people__twitter"></div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="people people__woman2"></div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <p class="twitter__text">hapinness cannot be traveled tralalalal any other info to print it and read? hapinness cannot be traveled tralalalal any other info to print it and read hapinness cannot be traveled tralalalal any other info to print it and read.</p>
-                    </div>
-                    <div class="twitter__hashtag">@loveless</div>
-                </div>
-            </section>
-            
-            <footer class="footer">
-                <div class="row justify-content-center footer__info">
                     <div class="col-6">
-                        <p class="footer__title footer__main-title">UNICORN</p>
-                        <div class="footer__feedback">
-                            <p class="text text_level-3">hapinness cannot be traveled tralalalal any other info to print it and read.</p>
-                            <div class="row justify-content-center">
-                                <div class="col-6">
-                                    <input class="footer__enterform" placeholder="EMAIL" type="email">
-                                </div>
-                                <div class="col-6">
-                                    <input class="footer__enterform" placeholder="SUBJECT" type="text">
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <input class="footer__enterform" placeholder="MESSAGE" type="text">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <h2 class="footer__title">LINKS</h2>
-                        <a href="/" class="link link__footer link__footer_navigarion">Home</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">About</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Services</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Menu</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Restaurants</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Work Hours</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Call Hours</a>
-                    </div>
-                    <div class="col-2">
-                        <h2 class="footer__title">FRIENDS</h2>
-                        <a href="/" class="link link__footer link__footer_navigarion">Home</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">About</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Services</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Menu</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Restaurants</a>
-                    </div>
-                    <div class="col-2">
-                        <h2 class="footer__title">SOCIAL</h2>
-                        <a href="/" class="link link__footer link__footer_navigarion">Facebook</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Twitter</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Github</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Pinterest</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Google Plus</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Dribbble</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Flickr</a>
-                        <a href="/" class="link link__footer link__footer_navigarion">Others</a>
+                        <img class="bio__img bio__img-superman">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <a href="/" class="link link__footer link__footer_navigarion">SEND -></a>
-                        <div class="footer__underline"></div>
+                <div class="row justify-content-center bio__row">
+                    <div class="col-6">
+                        <img class="bio__img bio__img-copter_awords">
+                    </div>
+                    <div class="col-6 bio__block">
+                        <p class="text text_level-3 bio__category">Drone hackathon / May, 2016</p>
+                        <h2 class="title title_level-2 bio__header">I build copters</h2>
+                        <p class="text text_level-3">I had the degree of engeneer from Moscow Aviation Institute. My hobby is droneracing and copterbuilding.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 footer__credits">
-                        <div>
-                            <p class="text text_footer-copyright">Some text without any perspective to be genious! But you are lucky motherfucker!</p>
-                            <p class="text text_footer-copyright">@2018 YYYYUUUMYYY!</p>
-                        </div>
-                        <div>
-                            <a href="/" class="link link__footer">TERMS</a>
-                            <a href="/" class="link link__footer">PRIVACY POLICY</a>
-                            <a href="/" class="link link__footer">CONTACT</a>
-                            <a href="/" class="link link__footer">JOB</a>
-                        </div>
+                <div class="row justify-content-center bio__row">
+                    <div class="col-6 bio__block">
+                        <p class="text text_level-3 bio__category">Travel in Tunisia / April, 2017</p>
+                        <h2 class="title title_level-2 bio__header">I like travel</h2>
+                        <p class="text text_level-3">I have visited USA, India, Egypt, Tunisia and many countries in Europe. Actually I don't like hot climate, I think the perfect temperature is about 20 C.</p>
+                    </div>
+                    <div class="col-6">
+                        <img class="bio__img bio__img-traveller">
                     </div>
                 </div>
-            </footer>
-        </main>
+            </div>
+        </section>
+        <section class="social" id="contacts-id">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h1 class="social__header">My social pages & contacts</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <a href= "https://www.instagram.com/colorbash/" class="social__icon social__icon-inst"></a>
+                    <a href= "https://vk.com/colorbash" class="social__icon social__icon-vk"  ></a>
+                    <a href= "https://www.facebook.com/colorbash3000" class="social__icon social__icon-fb"  ></a>
+                </div>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src='./client.js'></script>
     </body>
+    <footer>
+    </footer>
 </html>
-
